@@ -1,0 +1,20 @@
+/* custom.css */
+
+.notif{
+	border-radius : 4px;
+	margin-bottom : 20px;
+	padding : 15px;
+	border : 1px solid;
+}
+
+.notif-danger{
+	background-color :#f2dede;
+	border-color: #ebccd1;
+	color : #a94442;
+}
+
+.notif-info{
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+	color: #31708f;
+}

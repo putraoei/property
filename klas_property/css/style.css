@@ -1,0 +1,441 @@
+/*
+	Autonomy by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body {
+		margin: 0px;
+		padding: 0px;
+		background: #4da6ff;
+		font-family: 'Raleway', sans-serif;
+		font-size: 12pt;
+		color: #000000;
+	}
+
+	h1, h2, h3 {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	h2 {
+		padding: 0px 0px 20px 0px;
+		letter-spacing: -1px;
+		font-size: 1.5em;
+	}
+
+	p, ol, ul {
+		margin-top: 0px;
+		line-height: 160%;
+	}
+
+	p {
+		margin-bottom: 2em;
+		line-height: 160%;
+	}
+
+
+	strong {
+		font-weight: 700;
+	}
+
+	a {
+		color: #A2A2A2;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+		/* Images */
+
+			.image
+			{
+				display: inline-block;
+			}
+			
+				.image img
+				{
+					display: block;
+					width: 100%;
+				}
+
+				.image.featured
+				{
+					display: block;
+					width: 100%;
+					margin: 0 0 2em 0;
+				}
+				
+				.image.full
+				{
+					display: block;
+					width: 100%;
+					margin-bottom: 1em;
+				}
+				
+				.image.left
+				{
+					float: left;
+					margin: 0 2em 2em 0;
+				}
+				
+				.image.centered
+				{
+					display: block;
+					margin: 0 0 2em 0;
+				}
+
+					.image.centered img
+					{
+						margin: 0 auto;
+						width: auto;
+					}
+
+		header
+		{
+			margin-bottom: 2.5em;
+		}
+			
+			header h2
+			{
+				font-weight: 600;
+			}
+		
+			header .byline
+			{
+				display: block;
+				margin: 0.5em 0 0 0;
+				padding: 0 0 0.5em 0;
+			}
+
+		ul.style
+		{
+		}
+		
+		ul.style li
+		{
+			padding: 0.55em 0em;
+		}
+		
+		ul.style li:first-child
+		{
+		}
+		
+		ul.style a
+		{
+			color: #774535 !important;
+		}
+
+		ul.style1
+		{
+		}
+		
+		ul.style1 li
+		{
+			padding: 0.55em 0em;
+		}
+		
+		ul.style1 li:first-child
+		{
+		}
+		
+		ul.style1 a
+		{
+			color: #774535 !important;
+		}
+
+		ul.style1 img
+		{
+			float: left;
+			margin-right: 1em;
+		}
+	
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+	}
+
+		#header .container
+		{
+			position: relative;
+			padding: 3em 0em;
+		}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		position: absolute;
+		left: 0em;
+		top: 1.5em;
+	}
+	
+		#logo h1
+		{
+			color: #FFF;
+		}
+	
+		#logo a
+		{
+			display: block;
+			text-decoration: none;
+			font-size: 2.8em;
+			font-weight: 600;
+			color: #FFF;
+		}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+		position: absolute;
+		right: 0em;
+		top: 1.5em;
+	}
+
+		#nav > ul > li
+		{
+			float: left;
+		}
+		
+			#nav > ul > li:last-child
+			{
+				padding-right: 0;
+			}
+
+			#nav > ul > li > a,
+			#nav > ul > li > span
+			{
+				display: block;
+				margin-left: 0.7em;
+				padding: 0.80em 1.2em;
+				letter-spacing: 0.06em;
+				text-decoration: none;
+				font-size: 1em;
+				outline: 0;
+				color: #FFF;
+			}
+
+			#nav li.active a
+			{
+				background: #56c9d6;
+				border-radius: 5px;
+				color: #FFF;
+			}
+
+			#nav > ul > li > ul
+			{
+				display: none;
+			}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+
+	
+	#bannerindex
+	{
+		position: relative;
+		background: #333 url(../images/banner.jpg) no-repeat center;
+		background-size: cover;
+	}
+	
+	#bannermain
+	{
+		position: relative;
+		background: #333 url(../images/banner.jpg) no-repeat center;
+		background-size: cover;
+	}
+	
+	#bannerolahraga
+	{
+		position: relative;
+		background: #333 url(../images/olahraga.jpg) no-repeat center;
+		background-size: cover;
+	}
+	
+	#bannerteknologi
+	{
+		position: relative;
+		background: #333 url(../images/teknologi.jpg) no-repeat center;
+		background-size: cover;
+	}
+	
+	#bannerfinansial
+	{
+		position: relative;
+		background: #333 url(../images/finansial.jpg) no-repeat center;
+		background-size: cover;
+	}
+	
+	#bannerotomotif
+	{
+		position: relative;
+		background: #333 url(../images/otomotif.jpg) no-repeat center;
+		background-size: cover;
+	}
+	
+	#bannerperjalanan
+	{
+		position: relative;
+		background: #333 url(../images/perjalanan.jpg) no-repeat center;
+		background-size: cover;
+	}
+	
+	#bannerkriminal
+	{
+		position: relative;
+		background: #333 url(../images/kriminal.jpg) no-repeat center;
+		background-size: cover;
+	}
+	
+	#bannerentertainment
+	{
+		position: relative;
+		background: #333 url(../images/entertainment.jpg) no-repeat center;
+		background-size: cover;
+	}
+	
+	.homepage #bannerindex
+	{
+	}
+	
+	.homepage #bannermain
+	{
+	}
+
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		position: relative;
+		padding: 6em 0em;
+		background: #261611;
+		color: #774535;
+	}
+	
+	#main header h2
+	{
+		color: #bc765f;
+	}
+	
+	#main a
+	{
+		color: #bc765f;
+	}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+	#featured
+	{
+		position: relative;
+		padding: 0em 0em 0em 0em;
+		background: #FFF;
+	}
+	
+/*********************************************************************************/
+/* Marketing                                                                     */
+/*********************************************************************************/
+
+	#marketing
+	{
+		position: relative;
+		padding: 1em 0em;
+		background: #ffffff;
+		color: black;
+	}
+	
+		#marketing header h2
+		{
+			color: black;
+		}
+		
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+	
+	#copyright
+	{
+		position: relative;
+		padding: 3em 0em;
+		text-align: center;
+		color: #774535;
+	}
+	
+	#copyright .container
+	{
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: #774535 !important;
+	}
+	
+/*********************************************************************************/
+/* Dropdown                                                                     */
+/*********************************************************************************/
+
+	.dropbtn {
+		font-family: 'Raleway', sans-serif;
+		font-weight: bold;
+		background-color: #4da6ff;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: none;
+	}
+
+	.dropdown {
+		float:right;
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+	.dropdown-content a {
+		font-family: 'Raleway', sans-serif;
+		font-weight: bold;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+
+	.dropdown-content a:hover {background-color: #cce6ff}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+	.dropdown:hover .dropbtn {
+		background-color: #4da6ff;
+		color: black;
+	}	
